@@ -42,8 +42,7 @@ def predict_fruit(img):
 with gr.Blocks(theme=gr.themes.Soft(primary_hue="green", secondary_hue="emerald")) as demo:
     gr.Markdown(
         """
-        # 🍎 Fruit Freshness AI Scanner
-        ### Instantly detect if your fruit is fresh or rotten using Deep Learning.
+        # Fresh and Rotton fruit detection 
         """
     )
     
